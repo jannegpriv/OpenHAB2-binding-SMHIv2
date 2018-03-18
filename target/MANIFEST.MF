@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.openhab.binding.smhiweather;singleton:=true
+Export-Package: org.openhab.binding.smhiweather,org.openhab.binding.sm
+ hiweather.handler
+Bundle-Name: smhiweather Binding
+Bundle-Version: 2.0.0.201703051738
+Bundle-ClassPath: .
+Require-Bundle: com.google.gson;bundle-version="2.3.1"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: openHAB
+Import-Package: com.google.gson;version="2.3.1",org.eclipse.smarthome.
+ config.core,org.eclipse.smarthome.core.library.types,org.eclipse.smar
+ thome.core.thing,org.eclipse.smarthome.core.thing.binding,org.eclipse
+ .smarthome.core.thing.binding.builder,org.eclipse.smarthome.core.thin
+ g.type,org.eclipse.smarthome.core.types,org.eclipse.smarthome.io.net.
+ http,org.openhab.binding.smhiweather,org.openhab.binding.smhiweather.
+ handler,org.slf4j
+Service-Component: OSGI-INF/*.xml
+
